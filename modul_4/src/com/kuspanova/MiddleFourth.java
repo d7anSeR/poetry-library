@@ -18,16 +18,18 @@ public class MiddleFourth {
         boolean hasEggs = input.contains("яйца");
         boolean hasMilk = input.contains("молоко");
         boolean hasCoffee = input.contains("кофе");
-        if(hasEggs){
-            System.out.println("Яичница");
-        }
-        if(hasMilk && hasEggs){
-            System.out.println("Омлет");
-        }
-        if(hasCoffee && hasMilk){
-            System.out.println("Кофе");
-        }
-        else if(!hasCoffee && !hasMilk && !hasEggs){
+        if (hasEggs || hasCoffee || hasMilk) {
+            System.out.println("Можно приготовить: ");
+            if (hasEggs) {
+                System.out.println("Яичницу");
+            }
+            if (hasMilk && hasEggs) {
+                System.out.println("Омлет");
+            }
+            if (hasCoffee && hasMilk) {
+                System.out.println("Кофе");
+            }
+        } else {
             System.out.println("Ничего нельзя приготовить");
         }
     }

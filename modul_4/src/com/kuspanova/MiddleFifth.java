@@ -20,10 +20,9 @@ public class MiddleFifth {
         int b = scan.nextInt();
         System.out.println("Введите c: ");
         int c = scan.nextInt();
-        if(pow(b, 2) - 4 * a * c >= 0){
+        if (pow(b, 2) - 4 * a * c >= 0) {
             System.out.println("Есть действительные корни");
-        }
-        else{
+        } else {
             System.out.println("Нет действительных корней");
         }
     }

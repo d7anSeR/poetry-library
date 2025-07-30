@@ -13,7 +13,7 @@ public class HardFirst {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите название фигуры: ");
         String figure = scan.nextLine().toLowerCase();
-        switch (figure){
+        switch (figure) {
             case "прямоугольник":
                 System.out.println("Введите значения сторон прямоугольника: ");
                 int a = scan.nextInt();

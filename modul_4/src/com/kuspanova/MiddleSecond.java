@@ -14,10 +14,9 @@ public class MiddleSecond {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите числа: ");
         int a = scan.nextInt(), b = scan.nextInt();
-        if(a % b == 0){
+        if (a % b == 0) {
             System.out.println("Число " + a + " делится нацело на " + b);
-        }
-        else{
+        } else {
             System.out.println("Число " + a + " не делится нацело на " + b + ". Остаток равен " + (a % b));
         }
     }

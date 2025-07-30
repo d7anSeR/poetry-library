@@ -11,7 +11,7 @@ public class EasySecond {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ввод: ");
         int elem = scan.nextInt();
-        switch (elem){
+        switch (elem) {
             case 1:
                 System.out.println("Зима");
                 break;

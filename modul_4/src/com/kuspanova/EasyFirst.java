@@ -8,9 +8,9 @@ public class EasyFirst {
         System.out.println("Введите x: ");
         int x = scan.nextInt();
         int y;
-        if(x > 0){
+        if (x > 0) {
             y = 2 * x;
-        }else{
+        } else {
             y = -2 * x;
         }
         System.out.printf("y = " + y);
